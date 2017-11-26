@@ -15,8 +15,8 @@ public class Main2Activity extends AppCompatActivity {
         String kalimatA = "Nilai Team A adalah ";
         String kalimatB = "Nilai Team B adalah ";
 
-        tvScoreA= findViewById(R.id.score_A);
-        tvScoreB= findViewById(R.id.score_B);
+        tvScoreA= findViewById(R.id.scorea);
+        tvScoreB= findViewById(R.id.scoreb);
 
         Intent intentTerima = getIntent();
         int a = intentTerima.getIntExtra("SCOREA", 0);
