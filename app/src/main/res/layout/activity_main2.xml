@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.asus.latihan.Main2Activity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Score Akhir Pertandingan"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:id="@+id/tag"
+        android:layout_centerInParent="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scorea"
+        android:text="Score tim A = 10"
+        android:textSize="14sp"
+        android:padding="24dp"
+        android:layout_below="@id/tag"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scoreb"
+        android:text="Score tim B = 10"
+        android:textSize="14sp"
+        android:padding="24dp"
+        android:layout_below="@id/tag"
+        android:layout_alignParentEnd="true"
+        />
+
+</RelativeLayout>
